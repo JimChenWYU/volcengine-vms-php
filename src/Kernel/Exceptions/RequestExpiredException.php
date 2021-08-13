@@ -6,5 +6,4 @@ use Volcengine\Kernel\Exceptions\Exception;
 
 class RequestExpiredException extends Exception
 {
-
 }

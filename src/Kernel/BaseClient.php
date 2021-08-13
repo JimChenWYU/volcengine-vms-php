@@ -31,7 +31,7 @@ class BaseClient extends \Volcengine\Kernel\BaseClient
     protected function beforeRequestMiddleware()
     {
         $that = $this;
-        return static function (callable $handler) use($that) : callable {
+        return static function (callable $handler) use ($that): callable {
             return static function (RequestInterface $request, array $options) use ($handler, $that) {
                 if (!$request->hasHeader('ServiceName')) {
                     $request = $request->withHeader('ServiceName', $that->getServiceName());
