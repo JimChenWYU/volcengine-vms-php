@@ -1,6 +1,6 @@
 {
     "name": "jimchen/volcengine-vms-php",
-    "description": "Package description here.",
+    "description": "火山引擎语言服务 OpenApi PHP SDK.",
     "license": "MIT",
     "authors": [
         {

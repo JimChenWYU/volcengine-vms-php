@@ -1,6 +1,6 @@
 <h1 align="center"> volcengine-vms-php </h1>
 
-<p align="center"> .</p>
+<p align="center">火山引擎语言服务 OpenApi PHP SDK.</p>
 
 
 ## Installing
